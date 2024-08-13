@@ -48,9 +48,7 @@ const botTypeClasses = {
         <div
           className="ui card"
           key={bot.id}
-          // onClick={()=>{
-          //   handleClick(bot)}
-          // }
+          
         >
           <div className="image">
             <img alt="oh no!" src={bot.avatar_url} />

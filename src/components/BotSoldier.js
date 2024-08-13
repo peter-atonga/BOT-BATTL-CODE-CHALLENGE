@@ -7,7 +7,7 @@ function BotSoldier({bot,setBots,handleBotArmy,botArmy,bots}){
         handleBotArmy(botArmy.filter(b=> b.id !== bot.id))
 
         //returns the bot back to the bot army
-        setBots([...bots.bot])
+        setBots([...bots,bot])
         console.log("g",bots)
     }
 

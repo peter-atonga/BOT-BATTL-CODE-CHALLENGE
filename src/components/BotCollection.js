@@ -1,5 +1,11 @@
 import React from "react";
 import BotCard from "./BotCard";
+import Botspec from "./BotSpecs";
+
+
+
+
+
 
 function BotCollection({bots,setBots,botArmy,handleBotArmy}) {
   // Your code here
