@@ -29,7 +29,7 @@ const botTypeClasses = {
     }
 
     function handleDeleteClick(){
-      fetch(`http://localhost:8002/bots/${bot.id}`,{
+      fetch(`https://json-server-vercel-gilt-six.vercel.app/bots/${bot.id}`,{
         method:"DELETE"
       })
       .then((response)=>{

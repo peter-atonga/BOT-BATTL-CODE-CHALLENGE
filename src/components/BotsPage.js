@@ -13,7 +13,7 @@ function BotsPage() {
   console.log(value1)
 
   useEffect(()=>{
-    fetch("http://localhost:8002/bots")
+    fetch("https://json-server-vercel-gilt-six.vercel.app/bots")
   .then(res=>res.json())
   .then(data=>setBots(data))
   },[])
